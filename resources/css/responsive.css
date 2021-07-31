@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1024px)
+{
+    .main-nav{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+    section{
+    padding: 7rem 0;
+    }
+}
+
+@media only screen and (max-width: 980px)
+{
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .box{
+        padding: 5%;
+    }
+    .box p{
+        font-size: 1.8rem;
+    }
+    .client-photo{
+        width: 100%;
+        float: none;
+    }
+    .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .testimonial-section .col:nth-child(3),
+    .testimonial-section .col:nth-child(4){
+        margin-top: 2rem;
+    }
+    .contact-section form{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .row{
+        margin: 0 2rem;
+    }
+      .hero-text-box{
+        width: 100%;
+    }
+    .little-desc{
+        width: 100%;
+        margin-left: 0;
+    }
+    .box{
+        padding: 1%;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    header{
+        height: 60vh;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    .span_1_of_4{
+        width: 100%;
+    }
+    .testimonial-section .col:nth-child(3),
+    .testimonial-section .col:nth-child(4){
+        margin-top: 4rem;
+    }
+    .portfolio-filter button{
+        margin: .8rem;
+    }
+    .footer-section li{
+        margin: 2rem;
+    }
+}
